@@ -90,7 +90,7 @@ class Script(scripts.Script):
             end_tag = gr.Textbox(label="End tag", value="long hair")
         with gr.Row():
             bias_min = gr.Number(label="Bias min", value=0.6)
-            bias_max = gr.Number(label="Bias max", value=1.6)
+            bias_max = gr.Number(label="Bias max", value=1.4)
         with gr.Row():
             image_count = gr.Number(label="Image count", value=12)
             gif_duration = gr.Number(label="Gif duration", value=100)

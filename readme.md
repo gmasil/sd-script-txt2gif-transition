@@ -2,6 +2,8 @@
 
 A script for [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) to generate gifs with a transition.
 
+**Note: This is a proof of concept and is no longer maintained. The same functionality can be found in my [Stable Diffusion GIF Transition Addon](https://github.com/gmasil/sd-webui-gif-transition).**
+
 ![example](example.webp "Example")
 
 You can add two tags/words that are gradually transitioned between. The minimum and maximum bias of the tags have an impact on the amount of change from first to last frame. Then you can select the amount of frames you want to generate and the time in ms between each frame.
